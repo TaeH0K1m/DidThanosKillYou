@@ -6,7 +6,7 @@ import random
 app = Flask(__name__)
 
 @app.route('/')
-def hello_world():
+def index():
     isKilled = random.random()
 
     if isKilled < 0.5:
